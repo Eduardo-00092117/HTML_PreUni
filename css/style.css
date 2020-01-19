@@ -1,0 +1,32 @@
+#container{
+    border: 1px solid black;
+    padding: 10px 20px 10px 20px;
+    width: fit-content;
+    background: rgb(240, 240, 240);
+}
+
+#cajita input{
+    background-color:rgb(187, 137, 207);
+    border:0px;
+    width:245px;
+    height: 35px;
+    font-size: 1em;
+    padding: 5px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+#botones input{
+    width:60px;border:0px;
+    height: 60px;
+    color: white;
+    background-color:cornflowerblue;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    margin-bottom: 5px;
+}
+
+#botones input:active{
+    background: black;
+}
